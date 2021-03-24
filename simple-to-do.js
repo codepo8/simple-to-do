@@ -26,8 +26,8 @@ const addTask = e => {
   if (task.value) {
     tasks[task.value] = 'active';
     updateList();
-    task.value = '';
     console.info('Adding Task :' + task.value);
+    task.value = '';
   }
   e.preventDefault();
 };
