@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Microsoft Edge and open the Edge DevTools",
+            "type": "pwa-msedge",
             "request": "launch",
-            "type": "vscode-edge-devtools.debug",
-            "url": "http://localhost:8000/index.html"
+            "name": "Launch Edge against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
