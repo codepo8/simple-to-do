@@ -1,13 +1,14 @@
 .searchbar {
     display: flex;
     color: #fff;
-    background: #000;
+    background: black;
     border-radius: 10px;
     box-shadow: 0 5px 8px #333;
  }  
 .searchbar label, .searchbar input {
     flex-grow: 1;
     padding: .2em .5em;
+    -moz-animation: dummy 1s infinite;
 }
 .searchbar input[type="submit"] {
     background: #369;
