@@ -5,7 +5,7 @@
         "label": "start server",
         "type": "shell",
         "isBackground": true,
-        "command": "http-server",
+        "command": "reload",
         "presentation": { "reveal": "silent" },
         "problemMatcher": [{
           "pattern": [{
@@ -17,14 +17,14 @@
               "activeOnStart": true,
               "beginsPattern": { "regexp": "." },
               "endsPattern": { "regexp": "." }
-          },
+          }
         }]
     },
     {
         "label": "stop server",
         "command": "echo ${input:terminate}",
         "type": "shell"
-    },
+    }
   ],
   "inputs": [{
     "id": "terminate",
