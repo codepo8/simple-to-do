@@ -31,7 +31,6 @@ const addTask = e => {
   }
   e.preventDefault();
 };
-
 const changeTask = e => {
   let t = e.target;
   if (t.dataset.task) {

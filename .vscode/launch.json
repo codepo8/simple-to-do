@@ -8,7 +8,9 @@
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}",
             "runtimeExecutable": "stable",
-            "runtimeArgs": ["--headless"]
+            "runtimeArgs": ["--headless"],
+            "preLaunchTask": "start server",
+            "postDebugTask": "stop server"
         }
     ]
 }
