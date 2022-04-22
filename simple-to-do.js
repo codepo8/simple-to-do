@@ -24,8 +24,13 @@ const updateList = () => {
 
 const addTask = e => {
   if (task.value) {
-    console.info('Adding Task :' + task.value);
-    tasks[task.value] = 'active';
+    let t = task.value.replace(/[^A-Z|0-9| ]+/ig, '');
+    if (t.value !== t) {
+      console.warn('cleaned up task value');
+      t.value = t;
+    }
+    console.info('Adding Task :' + t);
+    tasks[t] = 'active';
     updateList();
     task.value = '';
   }
