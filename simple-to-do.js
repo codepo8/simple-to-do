@@ -15,7 +15,7 @@ const updateList = () => {
         <input type="checkbox" 
         ${tasks[t] === 'done' ? 'checked' : ''}
         value="${t}"><span>${t}</span>
-        <button data-task="${t}">ｘ</button>
+        <button type="button" data-task="${t}">ｘ</button>
         </label>
     </li>`;
   }

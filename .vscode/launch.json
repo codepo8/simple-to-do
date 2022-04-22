@@ -7,10 +7,10 @@
             "name": "webdebug",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}",
-            "runtimeExecutable": "stable",
+            "runtimeExecutable": "canary",
             "runtimeArgs": ["--headless"],
             "preLaunchTask": "start server",
             "postDebugTask": "stop server"
-        }
+        },
     ]
 }

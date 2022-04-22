@@ -5,9 +5,7 @@
     border-radius: 10px;
     box-shadow: 0 5px 8px #333;
     flex-direction: row;
- }  
-
-
+ } 
  .searchbar label, .searchbar input {
     flex-grow: 1;
     padding: .2em .5em;
@@ -15,7 +13,7 @@
 }
 .searchbar input[type="submit"] {
     background: #369;
-    color: #fff;
+    color: #333;
     border-radius: 10px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;

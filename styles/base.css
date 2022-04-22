@@ -1,7 +1,7 @@
 body {
   font-size: calc(1em + 1vw);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: lightskyblue;
+  background:lightblue;
   height:300vh;
 }
 ul,form {
