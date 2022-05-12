@@ -13,3 +13,5 @@ to:
 ```
 
 Also there to show the functionality of the [Edge Developer Tools for VS Code](https://aka.ms/devtools-for-code) extension.
+
+See [Microsoft Edge DevTools extension for Visual Studio Code](https://docs.microsoft.com/microsoft-edge/visual-studio-code/microsoft-edge-devtools-extension).
