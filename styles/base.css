@@ -1,8 +1,15 @@
 body {
   font-size: calc(1em + 1vw);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background:lightblue;
-  height:300vh;
+  background: #666;
+  color: #fff;
+  height: 300vh;
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background:lightblue;
+    color: #111;
+  }
 }
 ul,form {
   margin: 1em auto;
